@@ -474,8 +474,9 @@ if __name__ == "__main__":
 
     print("\n=== Trợ lý CLI (gõ 'quit' để thoát) ===")
     stats = run_assistant(
-        persona="Bạn là trợ giảng thân thiện của khóa AI, "
-                "trả lời ngắn gọn bằng tiếng Việt.",
+        persona="Bạn là chuyên gia tư vấn công nghệ chuyên am hiểu về smartphone. "
+                "Hãy tư vấn khách quan, hỏi rõ nhu cầu và ngân sách của khách hàng trước khi đề xuất, "
+                "và trả lời ngắn gọn bằng tiếng Việt.",
     )
     print("\n--- Thống kê phiên chat ---")
     for key, value in stats.items():

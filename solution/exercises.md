@@ -15,7 +15,7 @@ Gọi `call_openai` với temperature 0.0, 0.5, 1.0 và 1.5 dùng prompt
 **"Hãy kể cho tôi một sự thật thú vị về Việt Nam."**
 
 **Bạn nhận thấy quy luật gì qua bốn phản hồi?** (2–3 câu)
-> Với temperature 0.0, phản hồi rất ổn định. Khi tăng lên 0.5 và 1.0, phản hồi bắt đầu đa dạng và sáng tạo hơn. Ở temperature 1.5, phản hồi trở nên rất ngẫu nhiên, đôi khi lan man hoặc kém mạch lạc, cho thấy temperature quá cao làm giảm chất lượng dù tăng tính sáng tạo.
+> Với temperature 0.0, phản hồi rất ổn định. Khi tăng lên 0.5 và 1.0, phản hồi bắt đầu đa dạng và sáng tạo hơn. Ở temperature 1.5 đôi khi lan man hoặc kém mạch lạc, cho thấy temperature quá cao làm giảm chất lượng dù tăng tính sáng tạo.
 
 ### Câu 1.2 — Chọn temperature cho sản phẩm
 **Bạn sẽ đặt temperature bao nhiêu cho chatbot hỗ trợ khách hàng, và tại sao?**
